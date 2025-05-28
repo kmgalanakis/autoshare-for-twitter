@@ -19,7 +19,7 @@ jobs:
 
     - name: WordPress Plugin Deploy
       id: deploy
-      uses: iftakharul-islam/action-wordpress-plugin-deploy@develop
+      uses: 10up/action-wordpress-plugin-deploy@fix/distignore
       with:
         generate-zip: true
         dry-run: true
