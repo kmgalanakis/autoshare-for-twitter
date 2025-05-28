@@ -23,3 +23,5 @@ phpcs.xml
 phpunit.xml
 README.md
 webpack.config.js
+*.txt
+!readme.txt
