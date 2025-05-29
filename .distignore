@@ -6,6 +6,7 @@
 /node_modules
 /tests
 /src
+/lorem
 # DO NOT EXCLUDE /vendor
 
 # Files
