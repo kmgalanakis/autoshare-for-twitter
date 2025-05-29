@@ -24,5 +24,4 @@ phpunit.xml
 README.md
 webpack.config.js
 *.txt
-!lala.txt
 !readme.txt
