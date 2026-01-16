@@ -84,7 +84,7 @@ function enable_autoshare_by_default_for_core_post_type( $enabled, $post_type ) 
 add_filter( 'autoshare_for_twitter_enabled_default', 'enable_autoshare_by_default_for_core_post_type', 10, 2 );
 ```
 
-## FAQs
+## Frequently Asked Questions
 
 ### Does this plugin work with Gutenberg?
 
@@ -111,6 +111,10 @@ If you're seeing the error message "429: Too Many Requests" it indicates that yo
 
 To avoid encountering this error in the future and to have higher usage limits, we recommend considering a subscription to either the Basic or Pro access level. These access levels provide increased quotas and additional benefits to accommodate your needs. For more information on X/Twitter API access levels, you can visit this link: https://developer.x.com/en/products/x-api.
 
+### Where do I report security bugs found in this plugin? =
+
+Please report security bugs found in the source code of the Autoshare for Twitter plugin through the [Patchstack Vulnerability Disclosure  Program](https://patchstack.com/database/vdp/9e5fba6a-26c2-4dd7-a2ae-b8628c65835e).  The Patchstack team will assist you with verification, CVE assignment, and notify the developers of this plugin.
+
 ## Support Level
 
 **Stable:** 10up is not planning to develop any new features for this, but will still respond to bug reports and security concerns. We welcome PRs, but any that include new features should be small and easy to integrate and should not include breaking changes. We otherwise intend to keep this tested up to the most recent version of WordPress.
@@ -125,4 +129,4 @@ Please read [CODE_OF_CONDUCT.md](https://github.com/10up/autoshare-for-twitter/b
 
 ## Like what you see?
 
-<a href="http://10up.com/contact/"><img src="https://10up.com/uploads/2016/10/10up-Github-Banner.png" width="850" alt="Work with us at 10up"></a>
+<a href="http://10up.com/contact/"><img src="https://github.com/10up/.github/blob/trunk/profile/10up-github-banner.jpg" width="850" alt="Work with the 10up WordPress Practice at Fueled"></a>
